@@ -2,53 +2,52 @@
 <html>
 <head>
   <title>Toxic-Ware V1</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="script.js"></script>
   <style>
-    /* Additional styles (if any) can be added here */
+    /* CSS for the dark UI */
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    /* CSS for the hover effect */
+    .button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    /* CSS for the animations */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .animate-fadeIn {
+      animation: fadeIn 1s ease;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Toxic-Ware V1</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#downloads">Downloads</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <h1>Welcome to Toxic-Ware V1</h1>
+    <p>This is a new Roblox project with a sleek dark UI and nice animations.</p>
+    <label>Contact us: support@toxic-ware.com</label>
+    <br>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button animate-fadeIn">Download</a>
+  </div>
 
-  <section id="home">
-    <h2>Welcome to Toxic-Ware V1</h2>
-    <p>This is a new Roblox project that aims to provide a unique gaming experience.</p>
-  </section>
-
-  <section id="features">
-    <h2>Features</h2>
-    <ul>
-      <li>Feature 1</li>
-      <li>Feature 2</li>
-      <li>Feature 3</li>
-    </ul>
-  </section>
-
-  <section id="downloads">
-    <h2>Downloads</h2>
-    <p>Download the latest version of Toxic-Ware V1:</p>
-    <a href="download-link">Download</a>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>For any inquiries or support, please contact us:</p>
-    <a href="mailto:contact@toxic-ware.com">contact@toxic-ware.com</a>
-  </section>
-
-  <footer>
-    <p>&copy; 2021 Toxic-Ware V1. All rights reserved.</p>
-  </footer>
+  <script>
+    // JavaScript code goes here (if needed)
+  </script>
 </body>
 </html>
